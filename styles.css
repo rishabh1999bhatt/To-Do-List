@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, rgb(75, 121, 161), rgb(40, 62, 81));
+}
+
+.parent {
+  width: 60%;
+  margin: 60px auto;
+}
+header {
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+h1 {
+  margin-bottom: 10px;
+}
+form {
+  width: 70%;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.input-text {
+  width: 94%;
+  border: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  height: 40px;
+  padding: 0px 14px;
+  font-size: 15px;
+}
+.input-text-submit {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  left: 95.7%;
+  top: 16%;
+  cursor: pointer;
+}
+.input-text-clear:hover {
+  filter: brightness(80%);
+}
+
+.input-text-clear {
+  height: 40px;
+  width: 86px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 75.6%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.to-do-container {
+  background-color: white;
+  height: 50px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.todo-list div:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.todo-list div:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+input ~ span {
+  margin-left: 8px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-checkbox {
+  width: 16px;
+  height: 100%;
+}
